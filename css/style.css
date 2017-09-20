@@ -1,0 +1,357 @@
+
+.Main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 800px;
+  /*border: 1px solid black;*/
+}
+
+.frontPage {
+  background-image: url(../images/watercolour2.jpg);
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;;
+  text-align: center;
+  margin: 200px 300px;
+  position: absolute;
+}
+
+.text {
+  margin-top: 150px;
+  position: relative;
+  font-family: 'Lobster', cursive;
+  color: #11111;
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Radhika {
+  color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url(../images/splash1.jpg) repeat;
+  -webkit-background-clip: text;
+  margin-left: -600px;
+  margin-top: 200px;
+  font-family: monospace;
+  font-size: 60px;
+  display: inline;
+  position: absolute;
+}
+
+.Ankur {
+  color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url(../images/splash2.jpg) repeat;
+  -webkit-background-clip: text;
+  margin-left: -600px;
+  margin-top: 250px;
+  font-family: monospace;
+  font-size: 60px;
+  display: inline;
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+
+.areGetting {
+  color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url(../images/splash4.jpg) repeat;
+  -webkit-background-clip: text;
+  margin-left: -600px;
+  margin-top: 300px;
+  font-family: monospace;
+  font-size: 60px;
+  display: inline;
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+
+.Married {
+  color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url(../images/splash3.jpg) repeat;
+  -webkit-background-clip: text;
+  margin-left: -600px;
+  margin-top: 350px;
+  font-family: monospace;
+  font-size: 60px;
+  display: inline;
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+
+.onbeach {
+  color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url(../images/splash5.jpeg) repeat;
+  -webkit-background-clip: text;
+  margin-left: -600px;
+  margin-top: 400px;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  display: inline;
+  position: absolute;
+}
+
+.palmTrees {
+  width: 0px;
+  margin-top: 80px;
+  margin-left: 430px;
+  display: inline;
+  position: absolute;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-top: 0px;
+  margin-left: 1500px;
+  /*border: 1px solid black;*/
+}
+
+.mandap {
+  margin-top: 40px;
+}
+
+.picture {
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition:         transform 1s ease-in-out;
+}
+
+.picture:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.menu {
+  height: 40px;
+}
+
+.menutext {
+  text-align: left;
+  font-size: 14px;
+  /*border: 1px solid black;*/
+  width: 170px;
+  margin: 0px;
+}
+
+h3 {
+  font-family: monospace;
+}
+
+.modal {
+  width: 1000px;
+  height: 620px;
+  position: fixed;
+  margin: -595px 0px;
+  /*border: 3px solid black;*/
+}
+
+.modal-content {
+  width: 1000px;
+  height: 620px;
+}
+
+.mandapModal {
+  width: 1000px;
+  height: 620px;
+  /*background-color: #ffffff;*/
+  font-family: monospace;
+  background-image: url(../images/flowerbackground6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accomodationModal {
+  width: 1000px;
+  height: 620px;
+  /*background-color: #ffffff;*/
+  font-family: monospace;
+  background-image: url(../images/damask1.jpg);
+  background-repeat: repeat;
+  /*background-size: cover;*/
+}
+
+.transportModal {
+  width: 1000px;
+  height: 620px;
+  background-color: #ffffff;
+  font-family: monospace;
+  background-image: url(../images/damask2.jpg);
+}
+
+.instagramModal {
+  width: 1000px;
+  height: 620px;
+  background-color: #ffffff;
+  font-family: monospace;
+  background-image: url(../images/damask.jpg);
+}
+
+.rsvpModal {
+  width: 1000px;
+  height: 620px;
+  background-color: #ffffff;
+  font-family: monospace;
+  background-image: url(../images/damask4.jpg);
+  background-size: cover;
+}
+
+.mandapTitle {
+  /*color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url(../images/splash1.jpg) repeat;
+  -webkit-background-clip: text;*/
+  /*color: white;*/
+  height: 60px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mandapWeddingEvents {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  margin: 0;
+}
+
+.mandapWeddingInformation {
+  margin: 0 auto;
+  width: 900px;
+  font-family: monospace;
+}
+
+.eventTitle {
+  margin-left: 150px;
+  margin-bottom: 0px;
+  font-family: 'Lobster', cursive;
+}
+
+.eventInfo {
+  margin-left: 150px;
+  font-family: 'Lobster', cursive;
+}
+
+.eventInfo2 {
+  width: 900px;
+  margin-left: 50px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+.introStatement {
+  margin-top: 10px;
+  font-family: 'Lobster', cursive;
+}
+
+.information {
+  float: left;
+  display: inline;
+}
+
+.flower {
+  display: inline;
+}
+
+.flowerImage {
+  width: 400px;
+}
+
+.closeButtonAll {
+  width: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.radhikaAnkur2018 {
+  text-align: center;
+}
+
+.memoryGame {
+  width: 846px;
+  height: 432px;
+  /*border: 1px solid black;*/
+  margin: 0 auto;
+}
+
+.cardie {
+  width: 130px;
+  height: 140px;
+  margin: 0px 0px;
+  /*border: 2px solid black;*/
+  display: inline-block;
+  background-color: #6fd4a7;
+}
+
+/*.picOdd {
+  background-image: url(../images/splash5.jpeg);
+}
+
+.picOdd2 {
+  background-image: url(../images/splash4.jpg);
+}
+
+.picEven {
+  background-image: url(../images/splash2.jpg);
+}
+
+.picEven2 {
+  background-image: url(../images/watercolour2.jpg);
+}*/
+
+.memoryGamePicClass {
+  width: 130px;
+  height: 140px;
+}
+
+.elephantImage {
+  width: 100px;
+  text-align: center;
+  margin: 0px 450px;
+}
+
+.imagesAccomodation {
+  width: 200px;
+  text-align: center;
+  margin: 0px 400px;
+}
+
+.peacock1 {
+  width: 120px;
+}
+
+.birdsTransport {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.birdTransport1 {
+  width: 90px;
+}
+
+.birdTransport2 {
+  width: 90px;
+}
+
+.tigerImage {
+  width: 140px;
+  text-align: center;
+  margin: 0px 430px;
+}
+
+.horseImage {
+  width: 60px;
+  text-align: center;
+  margin: 0px 430px;
+}
