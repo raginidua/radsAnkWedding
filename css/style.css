@@ -1,3 +1,6 @@
+/*body {
+  background-color: red;
+}*/
 
 .Main {
   position: fixed;
@@ -96,7 +99,16 @@ h6 {
   margin-left: -600px;
   margin-top: 400px;
   font-family: 'Lobster', cursive;
-  font-size: 50px;
+  font-size: 40px;
+  display: inline;
+  position: absolute;
+}
+
+.dateTime {
+  margin-left: -600px;
+  margin-top: 450px;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
   display: inline;
   position: absolute;
 }
@@ -194,7 +206,7 @@ h3 {
   height: 620px;
   background-color: #ffffff;
   font-family: monospace;
-  background-image: url(../images/damask.jpg);
+  background-image: url(../images/instaBackground.jpg);
 }
 
 .rsvpModal {
@@ -290,7 +302,7 @@ h3 {
   margin: 0px 0px;
   /*border: 2px solid black;*/
   display: inline-block;
-  background-color: #6fd4a7;
+  background-color: #7cb3a8;
 }
 
 /*.picOdd {

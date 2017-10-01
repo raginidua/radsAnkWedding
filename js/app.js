@@ -129,6 +129,7 @@ function animate() {
       $('.areGetting').animate({marginLeft: '20px'}, 'slow', function() {
         $('.Married').animate({marginLeft: '20px'}, 'slow', function() {
           $('.onbeach').animate({marginLeft: '20px'}, 'slow', function() {
+            $('.dateTime').animate({marginLeft: '20px'}, 'slow', function() {
             $('.palmTrees').animate({width: '400px'}, 'slow', function() {
               $('.mandapText').animate({marginLeft: '880px'}, 'slow');
               $('.mandap').animate({marginLeft: '880px'}, 'slow', function() {
@@ -150,4 +151,5 @@ function animate() {
       })
     })
   })
+})
   }
